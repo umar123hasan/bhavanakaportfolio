@@ -96,17 +96,23 @@ color:#cbd5f5;
 font-size:18px;
 }
 
-.home-img img{
+.placeholder-img{
 width:420px;
 height:480px;
 border-radius:10px;
-object-fit:cover;
 border:10px solid #1e293b;
 box-shadow:0 20px 40px rgba(0,0,0,0.7);
 transition:0.5s;
+display:flex;
+align-items:center;
+justify-content:center;
+background:#1e293b;
+font-size:32px;
+font-weight:bold;
+color:#cbd5f5;
 }
 
-.home-img img:hover{
+.placeholder-img:hover{
 transform:scale(1.05);
 box-shadow:0 25px 50px rgba(0,0,0,0.9);
 }
